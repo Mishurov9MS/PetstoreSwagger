@@ -12,6 +12,8 @@ public class StoreOrder {
     private String status;
     private Boolean complete;
 
+    public StoreOrder() {
+    }
 
     public StoreOrder(Integer id, Integer petId, Integer quantity, String shipDate, String status, Boolean complete) {
         this.id = id;
@@ -23,6 +25,4 @@ public class StoreOrder {
     }
 
 
-    public StoreOrder() {
-    }
 }
